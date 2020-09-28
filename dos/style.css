@@ -1,6 +1,6 @@
-div{
-   /* max-width: 22em;
-*/}
+#titulo{
+    text-align: center;
+}
 .dos{
     height: 150px;
     width: 150px;
@@ -12,6 +12,6 @@ div.contenedor{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
+text-justify: center;
     justify-items: center;
 }
