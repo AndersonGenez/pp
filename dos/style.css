@@ -2,16 +2,20 @@
     text-align: center;
 }
 .dos{
-    height: 150px;
-    width: 150px;
-    border: solid black 2px;
-    
+    height: 170px;
+    width: 150px;    
 }
 div.contenedor{
+    vertical-align: middle;
     height: 200px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-text-justify: center;
     justify-items: center;
+}
+.perfil{
+    width: 100%;
+    height: 150px;
+    border: solid blue 3px;
+    align-self: center;
 }
