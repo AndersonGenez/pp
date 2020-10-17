@@ -1,70 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me preocupa alguien</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
-<body class="bg-light">
-    <div class="row p-2 bg-secondary justify-content-center">
-            <div class="col-12 justify-content-center">
-
-                <h2 class="text-center">Me preocupa alguien</h3>
+<html lang="en" class="box-sizing: content-box;">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Me preocupa alguien</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   </head>
+   <body class="bg-light">
+      <style>
+         html, body {
+         max-width: 100%;
+         overflow-x: hidden;
+         }
+         .bg {
+         /* The image used */
+         background-image: url("bgDesktop.jpg");
+         /* Full height */
+         height: 100%;
+         /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+         .tomates{
+         background-color: rgba(255,255,255,0.4);
+         }
+         @media screen and (max-width: 900px){
+         .bg {
+         /* The image used */
+         background-image: url("bgMobile.jpg");
+         }
+         }
+         @media screen and (max-width: 500px){
+         .bg {
+         /* The image used */
+         background-image: url("bgMobileMini.jpg");
+         }
+         }
+      </style>
+      <div class="row p-2 bg-secondary justify-content-center">
+         <div class="col-12 justify-content-center">
+            <h3 class="text-center">Me preocupa alguien</h3>
+         </div>
+         <div class="col-12">
+            <h4 class="text-white text-center">Despues de un intento</h4>
+         </div>
+      </div>
+      <div class="">
+         <div class="row nav-scroller bg-white shadow  justify-content-center d-lg-flex">
+            <div class="col-12 col-lg-10 nav nav-underline justify-content-center" >
+               <a class="nav-link" href="https://andersongenez.github.io/pp/">Inicio</a>
+               <a class="nav-link" href="https://andersongenez.github.io/pp/mePreocupaAlguien/intento/antes/">Antes de un intento</a>
+               <a class="nav-link" href="https://andersongenez.github.io/pp/mePreocupaAlguien/despuesDeUnSuceso/">Despues de un suceso</a>
             </div>
-            <div class="col-12">
-            <h4 class="text-white text-center">Luego de un suceso</h4>
-            </div> 
-    </div>
-    <div class="">
-    <div class="row nav-scroller bg-white shadow  justify-content-center d-lg-flex">
-    <div class="col-12 col-lg-10 nav nav-underline justify-content-center" >
-        <a class="nav-link" href="../../">Inicio</a>
-        <a class="nav-link" href="">Antes de un intento</a>
-        <a class="nav-link" href="">Despues de un intento</a>
-    </div>
-</div>
-</div>
-    <div class="container">
-        <div class="row pt-3 d-flex justify-content-center">
-            <div class="col-11 col-lg-8">
-                <img src="https://i.ibb.co/fYKJSyD/image.jpg" class="img-fluid" alt="">
+         </div>
+      </div>
+      <!--Contenido-->
+      <div class="container">
+         <div class="row mb-3">
+            <!--salto de linea-->  
+         </div>
+      </div>
+      <div class="container">
+         <div class="row pt-3 d-flex justify-content-center">
+            <div class="col-5">
+               <img src="https://i.ibb.co/Q7WHzq1/mano.jpg" class="img-fluid rounded" alt="">
             </div>
-        </div>
-        <div class="row mb-5">
-
-        </div>
-        <div class="row">
-            <div class="col-8">
-                <p style="font-size: 1.3em;">FAMILIARES: 
-                    <br>Recomendaciones
-                    despues de un suicidio.
-                </p>    
+            <div class="col-7">
+               <p><h3>FAMILIARES: 
+                  <br>Recomendaciones
+                  despues de un intento de suicidio.
+               </h3>
+               </p>
+               <h3>En el hospital</h3>
+               <p>-Proporcionar toda la información posible a los profesionales sanitarios, 
+                  sin ocultar datos por posibles prejuicios hacia la conducta suicida.
+                  -Aceptar lo ocurrido, no culpabilizar por haber cometido el acto suicida y
+                   tratar el hecho de manera directa y empática.
+                  -No dramatizar ni banalizar la situación generada. 
+                  Mantenerse tranquilos y sensatos.
+                  <br>-Buscar soluciones prácticas para la prevención de una posible repetición 
+                  del acto.
+                  <h3>Al regreso a casa</h3>
+                  <br>-Minimizar el acceso a medios que puedan suponer un riesgo de autolisis.
+                  <br>-No culpabilizar ni represaliar. No humillar o menospreciar.
+                  <br>-Poner en práctica las acciones recomendadas al alta hospitalaria.
+                  <br>-Ponerse a disposición del familiar para la ayuda que pueda necesitar en su 
+                  proceso de recuperación en general y en su plan de  seguridad en particular.
+                  <br>-Ir poco a poco. No esperar soluciones mágicas y mantener las acciones 
+                  preventivas en el tiempo.
+               </p>
             </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-12">
-                <p>-Aunque sea duro de afrontar, es necesario empezar
-                    a asumir que no va a volver para poder empezar 
-                   a elaborar el duelo.
-                   <br>
-                   <br>-Trabaje sus emociones. No evite afrontar tus 
-                   sentimientos, le ayudará en el proceso de duelo.
-                   <br>-Ayúdese de los demás, hable con quien le pueda servir
-                    de ayuda.
-                    <br>-Aunque sea duro de afrontar, es necesario empezar a asumir 
-                    que no va a volver para poder empezar a elaborar el duelo.
-                    <br>-Trabaje sus emociones. No evite afrontar tus sentimientos, 
-                    le ayudará en el proceso de duelo.
-                    <br>-Ayúdese de los demás, hable con quien le pueda servir 
-                    de ayuda.
-                    <br>-Dese un tiempo.
-                    <br>-Cuídese.
-                    <br>-No tome decisiones importantes.
-                </p>    
-            </div>
-        </div>
-    </div>
-</body>
+         </div>
+      </div>
+   </body>
 </html>
